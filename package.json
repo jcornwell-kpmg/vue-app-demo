@@ -1,7 +1,7 @@
 {
-  "name": "vue-demo-app",
+  "name": "vue-app-demo",
+  "description": "A VueJS V3 demo application that uses a few styling and layout capabilities provided by the Bulma framework.",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

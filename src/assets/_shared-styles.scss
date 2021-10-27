@@ -1,0 +1,17 @@
+/* Shared global SCSS variables and mixins */
+@import './variables';
+@import './mixins';
+
+.app-content__fixed-width {
+    @include app-content-fixed-width;
+}
+
+.app-content__fixed-width__lg {
+    @include app-content-fixed-width;
+    @include fixed-width-lg;
+}
+
+.app-content__fixed-width__sm {
+    @include app-content-fixed-width;
+    @include fixed-width-sm;
+}

@@ -1,0 +1,21 @@
+/* SCSS Mixins */
+
+@mixin app-content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+@mixin app-content-fixed-width {
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin fixed-width-lg {
+    max-width: 1024px;
+}
+
+@mixin fixed-width-sm {
+    max-width: 600px;
+}

@@ -53,7 +53,7 @@
             v-model="userDetail.dob"
             class="input"
             type="date"
-            placeholder="Date of birth (mm/dd/yyyy)"
+            placeholder="Date of birth"
             :readonly="isReadOnly"
           />
         </div>

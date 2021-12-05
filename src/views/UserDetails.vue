@@ -3,10 +3,12 @@
     <div class="app-content__fixed-width__sm">
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
-          <li><router-link :to="{ name: 'home' }" class="navbar-item">
-          Home
-        </router-link></li>
-          <li class="is-active"><a href="#" aria-current="page">User Details</a></li>
+          <li>
+            <router-link :to="{ name: 'home' }" class="navbar-item">Home</router-link>
+          </li>
+          <li class="is-active">
+            <a href="#" aria-current="page">User Details</a>
+          </li>
         </ul>
       </nav>
       <UserDetailsForm :user-id="id"></UserDetailsForm>
